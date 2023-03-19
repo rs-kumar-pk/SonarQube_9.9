@@ -60,8 +60,3 @@
   hosts: localhost
   roles:
     - ansible-role-sonarqube
-
-- name: Install gitlab-runner
-  hosts: localhost
-  roles:
-    - ansible-role-gitlab-runner
